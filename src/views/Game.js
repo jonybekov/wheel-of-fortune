@@ -24,7 +24,7 @@ const Game = () => {
             onWheelTick: () => console.log("tick"),
         });
 
-        const text = "10 20 30 40 50 60 70 80 90 100 120 150 F ➕";
+        const text = "5 ➕ 10 25 40 П 15 30 0 Б 20 35";
         wheel.setWords(text.split(" "));
         wheel.drawWheel();
 
