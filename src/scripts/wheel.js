@@ -374,8 +374,8 @@ const spinButton = document.querySelector(".js-spin");
 const wordsInput = document.querySelector(".js-words");
 const getWords = () => wordsInput.value.split(" ");
 
-wordsInput.addEventListener("input", handleChange);
-wordButton.addEventListener("click", handleGetWord);
+// wordsInput.addEventListener("input", handleChange);
+// wordButton.addEventListener("click", handleGetWord);
 spinButton.addEventListener("click", handleSpin);
 
 const wheel = wheelFactory(mount);

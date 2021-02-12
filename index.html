@@ -23,43 +23,19 @@
             }
         </style>
 
-        <link
+        <!-- <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic"
             rel="stylesheet"
             type="text/css"
-        />
+        /> -->
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.css"
-        />
-        <link rel="stylesheet" href="./src/style/main.scss" />
     </head>
     <body>
-        <div id="hidden-word"></div>
+        <div id="app"></div>
+        <!-- <div id="hidden-word"></div> -->
 
-        <!-- partial:index.partial.html -->
-        <div class="wheel-container">
-            <div class="mount js-mount"></div>
-            <br />
-
-            <div class="row invisible">
-                <div class="column small-12">
-                    <h1>SVG Wheel Of Fortune</h1>
-                    <textarea class="js-words" name="words" rows="3">
-Well... do ya feel lucky... punk?</textarea
-                    >
-                    <button class="button expanded js-get-word">Get current word</button>
-                </div>
-            </div>
-
-            <div class="buttons">
-                <button class="success button js-spin">Крутить барабан</button>
-            </div>
-        </div>
-        <!-- partial -->
-        <script src="https://cdn.jsdelivr.net/gh/jonobr1/two.js@8641196c7fb029b48ba0f3b1f13bc5c84ff56907/build/two.js"></script>
+        <script src="./src/vendor/two.min.js"></script>
         <script src="./src/main.js"></script>
     </body>
 </html>
