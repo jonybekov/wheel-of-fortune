@@ -54,9 +54,9 @@ const HiddenWord = () => {
                     Скрыть все
                 </button>
                 <Link to="/settings">
-                    <button className="button expanded">Настройки</button>
+                    <button className="button expanded">🔧 Настройки</button>
                 </Link>
-                <button className="success button js-spin">Крутить барабан</button>
+                <button className="success button js-spin">🎡 Крутить барабан</button>
             </div>
 
             <div id="hidden-word">
